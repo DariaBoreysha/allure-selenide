@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "people",
+    "planets",
+    "films",
+    "species",
+    "vehicles",
+    "starships"
+  ],
+  "properties": {
+    "people": {
+      "type": "string",
+      "default": "",
+      "title": "The people Schema",
+      "examples": [
+        "https://swapi.dev/api/people/"
+      ]
+    },
+    "planets": {
+      "type": "string",
+      "default": "",
+      "title": "The planets Schema",
+      "examples": [
+        "https://swapi.dev/api/planets/"
+      ]
+    },
+    "films": {
+      "type": "string",
+      "default": "",
+      "title": "The films Schema",
+      "examples": [
+        "https://swapi.dev/api/films/"
+      ]
+    },
+    "species": {
+      "type": "string",
+      "default": "",
+      "title": "The species Schema",
+      "examples": [
+        "https://swapi.dev/api/species/"
+      ]
+    },
+    "vehicles": {
+      "type": "string",
+      "default": "",
+      "title": "The vehicles Schema",
+      "examples": [
+        "https://swapi.dev/api/vehicles/"
+      ]
+    },
+    "starships": {
+      "type": "string",
+      "default": "",
+      "title": "The starships Schema",
+      "examples": [
+        "https://swapi.dev/api/starships/"
+      ]
+    }
+  },
+  "examples": [{
+    "people": "https://swapi.dev/api/people/",
+    "planets": "https://swapi.dev/api/planets/",
+    "films": "https://swapi.dev/api/films/",
+    "species": "https://swapi.dev/api/species/",
+    "vehicles": "https://swapi.dev/api/vehicles/",
+    "starships": "https://swapi.dev/api/starships/"
+  }]
+}
