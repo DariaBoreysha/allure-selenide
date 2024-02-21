@@ -3,12 +3,12 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static com.codeborne.selenide.Selenide.closeWebDriver;
+import com.codeborne.selenide.Selenide;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CodewarTest {
 
-/*    private static void setup() {
+    private static void setup() {
         WebDriverManager.chromedriver().setup();
     }
 
@@ -19,8 +19,8 @@ public class CodewarTest {
 
     @AfterEach
     public void tearDown() {
-        closeWebDriver();
-    }*/
+        Selenide.closeWebDriver();
+    }
 
     @Test
     public void check123Test() {
